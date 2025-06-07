@@ -1,11 +1,14 @@
 [
-  {
+{
     "id": "_meta",
     "name": "Sleepin' with the fishes.",
     "author": "Gio",
-    "almanac": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/almanac.html"
-  },
-  {
+    "almanac": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/almanac.html",
+    "bootlegger": ["Drugged players draw a blank token instead of a good character. At the start of night 1, drugged players are woken (separately) to learn that they are 1 of 2 good characters"],
+    "firstNight": ["dusk","minioninfo", "demoninfo"]
+},
+
+{
     "id": "detective_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/detective_botc_mafia.png",
     "firstNightReminder": "Wake, show 3 characters. At least 1 must be in play, at least 1 must not.",
@@ -14,8 +17,9 @@
     "ability": "You start knowing 3 characters: at least 1 is in play, and at least 1 is not.",
     "flavor": "The blood spatter indicates a gunshot from that window... what do you think, Joey?",
     "firstNight": 22
-  },
-  {
+},
+
+{
     "id": "vigilante_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/vigilante_botc_mafia.png",
     "firstNightReminder": "Wake each Vigilante separately. Show each Vigilante the number of evil neighbours of the Vigilante clockwise from them. ",
@@ -23,17 +27,18 @@
     "name": "Vigilante",
     "team": "townsfolk",
     "ability": "You start knowing how many neighbours of the Vigilante clockwise from you are evil. [+0 to +2 Vigilantes] ",
-"special": [
+    "flavor": "We gotta keep these streets clean 'n we know these cops ain't doin enough. Be careful out there!",
+    "firstNight": 21,
+    "special": [
     {
       "name": "bag-duplicate",
       "type": "selection",
       "time": "pregame"
     }
- ],
-    "flavor": "We gotta keep these streets clean 'n we know these cops ain't doin enough. Be careful out there!",
-    "firstNight": 21
-  },
-  {
+    ]
+},
+
+{
     "id": "goodcop_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/goodcop_botc_mafia.png",
     "firstNightReminder": "Wake, point to 2 different players. 1 of them must be the Bad Cop.",
@@ -48,12 +53,13 @@
     "ability": "You start knowing that 1 of 2 players is the Bad Cop. Evil abilities affecting them affect you instead. [+the Bad Cop]",
     "flavor": "We just wanna ask some questions, nothin' serious.. can I gedda water for ya?",
     "firstNight": 23,
-  "jinxes": [
+    "jinxes": [
     {"id": "riot", "reason": "If the Good Cop is alive, sober & healthy and a Riot player nominates the Bad Cop on day 3, the Good Cop dies instead of them and nominates next."},
     {"id": "kazali", "reason": "If the Kazali selects the Bad Cop to be a Minion, the Good Cop becomes that Minion instead."}
   ]
-  },
-  {
+},
+
+{
     "id": "prisonofficer_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/prisonofficer_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose a player. Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
@@ -68,8 +74,9 @@
     "flavor": "Get used to that bed, junior, you'll be 'ere a lil' while.",
     "firstNight": 16,
     "otherNight": 3
-  },
-  {
+},
+
+{
     "id": "nurse_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/nurse_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose a player. Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
@@ -83,11 +90,12 @@
     "flavor": "Now now, I ain't stupid - I can tell that's a bullet wound. Hold still and bite down on this.",
     "firstNight": 20,
     "otherNight": 12,
-  "jinxes": [
+    "jinxes": [
     {"id": "cannibal", "reason": "If an evil player is eaten by the Cannibal, then selected by the Nurse, the Cannibal remains poisoned."}
   ]
-  },
-  {
+},
+
+{
     "id": "insider_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/insider_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose a living player. Mark chosen player as ‘Chosen’,",
@@ -101,8 +109,9 @@
     "flavor": "Word on the street is that Joey is plannin' on whackin' Paulie, that's what I 'erd anyhow.",
     "firstNight": 24,
     "otherNight": 13
-  },
-  {
+},
+
+{
     "id": "witness_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/witness_botc_mafia.png",
     "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Seen’. If that player dies to the Demon tonight, wake the Witness again and point to 2 players. 1 of them is the Demon.",
@@ -115,8 +124,9 @@
     "ability": "Each night*, choose a player (not yourself): If the Demon kills them, you learn that it is 1 of 2 players, then lose this ability.",
     "flavor": "Two gentlemen walked right up to 'im and popped him in the head, point blank. I swear it on my ma, it was one of them two!",
     "otherNight": 5
-  },
-  {
+},
+
+{
     "id": "badcop_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/badcop_botc_mafia.png",
     "otherNightReminder": "Wake, show the alignment of the player the Bad Cop announced during the day.",
@@ -129,8 +139,9 @@
     "ability": "Each day before nominations, you may publicly choose a player. Tonight, learn their alignment. 1 good player registers as evil to you.",
     "flavor": "We know you did it Paulie, so stop wastin' our time n' tell us what we already know!",
     "otherNight": 14
-  },
-  {
+},
+
+{
     "id": "priest_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/priest_botc_mafia.png",
     "firstNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players. Show the Priest the number of different character types (Townsfolk, Outsiders, Minion, Demon) amongst chosen players. Mark Priest with ‘No Ability’.",
@@ -144,8 +155,9 @@
     "flavor": "The essence of life is not in what we can see or touch, but in the unseen forces that bind us to each other and to something greater than ourselves. Do good in this world and God will do good unto you. Amen.",
     "firstNight": 26,
     "otherNight": 15
-  },
-  {
+},
+
+{
     "id": "sleuth_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/sleuth_botc_mafia.png",
     "reminders": [
@@ -155,8 +167,9 @@
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately name up to 4 characters to the Storyteller. You learn how many are in play.",
     "flavor": "Hmmm, interesting. He's been in n' out of that pub 3 times in the last 8 hours. What could it mean? Who knows."
-  },
-  {
+},
+
+{
     "id": "reporter_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/reporter_botc_mafia.png",
     "firstNightReminder": "Wake, ask for a number. Mark the number given with the relevant ‘Day’ reminder token.",
@@ -171,8 +184,9 @@
     "ability": "On your 1st night, choose a number. During day X, visit the storyteller to learn X things. (X is the number chosen) ",
     "flavor": "Find all the latest from the streets here at the New York Gazette!",
     "firstNight": 25
-  },
-  {
+},
+
+{
     "id": "whistleblower_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/whistleblower_botc_mafia.png",
     "otherNightReminder": "If the Whistleblower died to the Demon, wake them, show them an evil player and their character.",
@@ -181,8 +195,9 @@
     "ability": "If the Demon kills you, you learn an evil player and their character.",
     "flavor": "I promise ya Paulie, it was Frank n' Willie who whacked 'im! I just know it!",
     "otherNight": 11
-  },
-  {
+},
+
+{
     "id": "lawyer_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/lawyer_botc_mafia.png",
     "reminders": [
@@ -193,8 +208,9 @@
     "team": "townsfolk",
     "ability": "The 1st time you are executed, if the nominator was good, you don’t die.",
     "flavor": "This case against my client is baseless and without a single shred of evidence, and I implore the Jury that you acquit immediately!"
-  },
-  {
+},
+
+{
     "id": "barmaid_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/barmaid_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose 2 players. Mark 1 of the 2 chosen players or the Barmaid as ‘Drunk’.",
@@ -206,8 +222,9 @@
     "ability": "On your 1st night, choose 2 players: 1 of them or you are drunk from now on, even if you die.",
     "flavor": "What can I get ya? Can do ya a Martini, Sidecar or an Old-Fashioned.",
     "firstNight": 15
-  },
-  {
+},
+
+{
     "id": "therat_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/therat_botc_mafia.png",
     "otherNightReminder": "If only 3 players live, wake, show YOU ARE token, then show The Rat.",
@@ -219,19 +236,16 @@
     "team": "outsider",
     "ability": "You think you are a Minion, but you are not. You might register as an evil Minion, and if just 3 players live, you learn you are The Rat, even if dead.",
   "special": [
-    {
-      "name": "bag-disabled",
+    {"name": "bag-disabled",
       "type": "selection",
-      "time": "pregame"
-    },
-    {
-      "name": "replace-character",
-      "type": "reveal"
-    }
-  ],
+      "time": "pregame"},
+
+    {"name": "replace-character",
+     "type": "reveal"}
+    ],
     "flavor": "Big deal goin' down tonight at the river. Lotta mobsters gonna be around. ",
     "otherNight": 16,
-  "jinxes": [
+    "jinxes": [
     {"id": "cannibal", "reason": "The Rat always registers as evil to the Cannibal's ability."},
     {"id": "engineer", "reason": "The Minion character that The Rat sees is considered to be in play for the Engineer’s ability."},
     {"id": "klutz", "reason": "The Rat always registers as good to the Klutz's ability."},
@@ -245,9 +259,10 @@
     {"id": "kazali", "reason": "The Rat and Kazali cannot start together. If a Kazali is in play, a good player might become The Rat after the Kazali acts."},
     {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon cannot start together. If a Lord of Typhon is in play, a good player might become The Rat during setup."},
     {"id": "riot", "reason": "The Rat does not learn they are The Rat, but does not turn into Riot on day 3."}
-  ]
-  },
-  {
+    ]
+},
+
+{
     "id": "addict_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/addict_botc_mafia.png",
     "firstNightReminder": "Wake 2 drugged players separately. Show each of them the Addict and 1 Townsfolk. Mark the characters they are not with reminder tokens of those characters",
@@ -261,8 +276,9 @@
     "ability": "You and 1 Townsfolk think they might be an Addict. [+2 Drugged]",
     "flavor": "Got any rocks? Smack? C'mon Joey, I know ya got sumthin'!",
     "firstNight": 14
-  },
-  {
+},
+
+{
     "id": "mobwife_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/mobwife_botc_mafia.png",
     "firstNightReminder": "Wake the Demon, show the THIS PLAYER IS token and the Mob Wife token, then point to the Mob Wife.",
@@ -277,8 +293,9 @@
     "flavor": "I swear I seen nothin' of the sort, my Georgie would never harm a fly!",
     "firstNight": 18,
     "otherNight": 10
-  },
-  {
+},
+
+{
     "id": "underboss_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/underboss_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose a player. Show character of selected player. Mark one of their neighbours as ‘Poisoned’.",
@@ -292,12 +309,13 @@
     "flavor": "Just say the word n' Paulie will be sleepin' with the fishes tonight.",
     "firstNight": 17,
     "otherNight": 4,
-  "jinxes": [
+    "jinxes": [
     {"id": "damsel", "reason": "The Damsel might register as another character to the Underboss."},
     {"id": "engineer", "reason": "The Heretic might register as another character to the Underboss."}
   ]
-  },
-  {
+},
+
+{
     "id": "consigliere_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/consigliere_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose 2 good players. Wake 1 of the players, tell them that they are evil. Wake the other player, tell them that a Consigliere is in play.",
@@ -314,8 +332,9 @@
     {"id": "bountyhunter", "reason": "A Townsfolk is turned evil by the Bounty Hunter after the Consigliere acts, and might be the same player turned by the Consigliere."},
     {"id": "heretic", "reason": "The Heretic cannot turn evil due to the Consigliere's ability."}
   ]
-  },
-  {
+},
+
+{
     "id": "capo_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/capo_botc_mafia.png",
     "firstNightReminder": "Wake 1 drugged player, show them THIS CHARACTER HAS SELECTED YOU token, show the Capo. Show 2 good characters. Mark the character they are not with a reminder token of that character.",
@@ -329,13 +348,14 @@
     "ability": "If you correctly guess the player drugged by you (once), their team loses. They learn the Capo is in play. [+1 Drugged]",
     "flavor": "Some rat has taken summa our stash. I’m gonna find em, n’ make em pay.",
     "firstNight": 12,
-  "jinxes": [
+    "jinxes": [
     {"id": "spy", "reason": "If the Capo and the Spy are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "widow", "reason": "If the Capo and the Widow are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "plaguedoctor", "reason": "If the Storyteller would gain the Capo ability, a living Minion gains the Capo ability in addition to their own ability, and learns this. 1 good player learns a Capo is in play."}
   ]
-  },
-  {
+},
+
+{
     "id": "intimidator_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/intimidator_botc_mafia.png",
     "otherNightReminder": "If an Outsider was executed today, mark ‘Townsfolk are Poisoned’ next to the Intimidator. All Townsfolk are poisoned until dusk.",
@@ -348,8 +368,9 @@
     "ability": "If an Outsider was executed today, Townsfolk are poisoned tonight until dusk. [+1 Outsider]",
     "flavor": "I don't think ya understand what i'm tellin' ya. Ya either pay, or we 'ave ta take care of ya. Ya got 24 hours.",
     "otherNight": 2
-  },
-  {
+},
+
+{
     "id": "kingpin_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/kingpin_botc_mafia.png",
     "otherNightReminder": "Wake, ask to choose a player. Show them the chosen player’s character. The Kingpin will either nod to indicate to keep their choice, or choose another player. Mark the chosen player as ‘Dead’.",
@@ -361,12 +382,13 @@
     "ability": "Each night*, choose a player: you learn their character. Choose for them or another player to die.",
     "flavor": "Do me a favour will ya? Wash that mouth'o yours when you're around my daughter. ",
     "otherNight": 7,
-  "jinxes": [
+    "jinxes": [
     {"id": "damsel", "reason": "The Damsel might register as another character to the Kingpin."},
     {"id": "engineer", "reason": "The Heretic might register as another character to the Kingpin."}
   ]
-  },
-  {
+},
+
+{
     "id": "theboss_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/theboss_botc_mafia.png",
     "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Dead’.",
@@ -379,8 +401,9 @@
     "ability": "Each night*, choose a player: they die. The 1st time an evil player would die from execution, they don't.",
     "flavor": "Make it happen Georgie. Don't let me down.",
     "otherNight": 6
-  },
-  {
+},
+
+{
     "id": "druglord_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/druglord_botc_mafia.png",
     "firstNightReminder": "Wake up to 2 drugged players separately. Show each of them 2 good characters. Mark the characters they are not with reminder tokens of those characters. Wake the Drug Lord, show number of players drugged by their ability.",
@@ -397,8 +420,9 @@
     "flavor": "Remember folks, only small amounts, one hour per corner. Ya get any heat? Bounce.",
     "firstNight": 13,
     "otherNight": 8
-  },
-  {
+},
+
+{
     "id": "thedon_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/thedon_botc_mafia.png",
     "firstNightReminder": "Wake, ask to choose a Minion. Mark chosen Minion as ‘Advisor’.",
@@ -413,13 +437,14 @@
     "flavor": "I'm gonna make him an offer he can't refuse. Foggedaboutit!",
     "firstNight": 11,
     "otherNight": 9,
-  "jinxes": [
+    "jinxes": [
     {"id": "magician", "reason": "If the Magician and The Don are both are in play, the Storyteller chooses a Minion on The Don's behalf. The Minion suggests to the Storyteller who to kill, and the Storyteller relays their choice to The Don."},
     {"id": "poppygrower", "reason": "If the Poppy Grower and The Don are both are in play, The Don does not choose a Minion until the Poppy Grower is dead."},
     {"id": "marionette", "reason": "The Don cannot choose the Marionette as their advisor."}
   ]
-  },
-  {
+},
+
+{
     "id": "loanshark1_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/loanshark1_botc_mafia.png",
     "firstNightReminder": "Wake, show alignment. Ask to choose 2 players. Mark the 1st chosen player with ‘No Votes’, and the other player with ‘2 votes’.",
@@ -434,8 +459,9 @@
     "flavor": "$1000 at a low interest rate, it’s an offer too good ta’ refuse. Whadd’ya say?",
     "firstNight": 29,
     "otherNight": 18
-  },
-  {
+},
+
+{
     "id": "doubleagent_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/doubleagent_botc_mafia.png",
     "firstNightReminder": "Wake, show alignment. Ask if they want to use it. If yes, point to a player of their alignment.",
@@ -451,8 +477,9 @@
     "flavor": "Bit o' this, bit o' that.. which way will I go? Which way does the wind blow?",
     "firstNight": 27,
     "otherNight": 17
-  },
-  {
+},
+
+{
     "id": "president_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/president_botc_mafia.png",
     "firstNightReminder": "Wake, show alignment.",
@@ -464,6 +491,8 @@
     "ability": "Once per game, publicly choose a player. The Storyteller announces if they are the same or different alignment to you. You are unaffected by drunk and poison.",
     "flavor": "I promise you, my fellow Americans, that you will not need to fear organized crime on your streets while I am in service to you. For a better tomorrow, today!",
     "firstNight": 28
-  },
-  "gardener"
+},
+
+"gardener"
+
 ]
