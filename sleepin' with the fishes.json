@@ -14,7 +14,7 @@
     "firstNightReminder": "Wake, show 3 characters. At least 1 must be in play, at least 1 must not.",
     "name": "Detective",
     "team": "townsfolk",
-    "ability": "You start knowing 3 characters: at least 1 is in play, and at least 1 is not.",
+    "ability": "You start knowing 3 characters: at least 1 is in play & at least 1 is not.",
     "flavor": "The blood spatter indicates a gunshot from that window... what do you think, Joey?",
     "firstNight": 22
 },
@@ -70,7 +70,7 @@
     ],
     "name": "Prison Officer",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: they are safe from evil and cannot die until dusk. You or they are drunk.",
+    "ability": "Each night, choose a player: they are safe from evil & cannot die until dusk. You or they are drunk.",
     "flavor": "Get used to that bed, junior, you'll be 'ere a lil' while.",
     "firstNight": 16,
     "otherNight": 3
@@ -86,7 +86,7 @@
     ],
     "name": "Nurse",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): they are cured from drugged and must receive sober and healthy information until dusk. ",
+    "ability": "Each night, choose a player (not yourself): they are cured from drugged & must receive sober & healthy information until dusk. ",
     "flavor": "Now now, I ain't stupid - I can tell that's a bullet wound. Hold still and bite down on this.",
     "firstNight": 20,
     "otherNight": 12,
@@ -192,7 +192,7 @@
     "otherNightReminder": "If the Whistleblower died to the Demon, wake them, show them an evil player and their character.",
     "name": "Whistleblower",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, you learn an evil player and their character.",
+    "ability": "If the Demon kills you, you learn an evil player & their character.",
     "flavor": "I promise ya Paulie, it was Frank n' Willie who whacked 'im! I just know it!",
     "otherNight": 11
 },
@@ -206,7 +206,7 @@
     ],
     "name": "Lawyer",
     "team": "townsfolk",
-    "ability": "The 1st time you are executed, if the nominator was good, you don’t die.",
+    "ability": "The 1st time you are executed, if the nominator is good, you don’t die.",
     "flavor": "This case against my client is baseless and without a single shred of evidence, and I implore the Jury that you acquit immediately!"
 },
 
@@ -234,7 +234,7 @@
   "setup": true,
     "name": "The Rat",
     "team": "outsider",
-    "ability": "You think you are a Minion, but you are not. You might register as an evil Minion, and if just 3 players live, you learn you are The Rat, even if dead.",
+    "ability": "You think you are a Minion, but you are not. You might register as an evil Minion, & if just 3 players live, you learn you are The Rat, even if dead.",
   "special": [
     {"name": "bag-disabled",
       "type": "selection",
@@ -273,7 +273,7 @@
     "setup": true,
     "name": "Addict",
     "team": "outsider",
-    "ability": "You and 1 Townsfolk think they might be an Addict. [+2 Drugged]",
+    "ability": "You & 1 Townsfolk think they might be an Addict. [+2 Drugged]",
     "flavor": "Got any rocks? Smack? C'mon Joey, I know ya got sumthin'!",
     "firstNight": 14
 },
@@ -488,11 +488,10 @@
     ],
     "name": "President",
     "team": "traveller",
-    "ability": "Once per game, publicly choose a player. The Storyteller announces if they are the same or different alignment to you. You are unaffected by drunk and poison.",
+    "ability": "Once per game, publicly choose a player. The Storyteller announces if they are the same or different alignment to you. You are unaffected by drunk & poison.",
     "flavor": "I promise you, my fellow Americans, that you will not need to fear organized crime on your streets while I am in service to you. For a better tomorrow, today!",
     "firstNight": 28
 },
 
 "gardener"
-
 ]
