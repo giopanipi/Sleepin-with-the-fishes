@@ -333,7 +333,7 @@
     ],
     "name": "Consigliere",
     "team": "minion",
-    "ability": "On your 1st night, choose 2 good players: 1 turns evil. The other learns a Consigliere is in play.",
+    "ability": "On your 1st night, choose 2 good players: 1 turns evil. The other learns the Consigliere is in play.",
     "flavor": "If ya move some money here, invest some money in the liquor store over there, you'll be laughin' to tha bank.",
     "firstNight": 19,
   "jinxes": [
