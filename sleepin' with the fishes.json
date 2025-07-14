@@ -41,7 +41,7 @@
 {
     "id": "goodcop_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/goodcop_botc_mafia.png",
-    "firstNightReminder": "Wake, point to 2 different players. 1 of them must be the Bad Cop.",
+    "firstNightReminder": "Wake, point to 2 different players. 1 of them must be the Bad Cop. If no Bad Cop is in play, shake your head.",
     "reminders": [
       "Bad Cop",
       "Wrong",
@@ -50,7 +50,7 @@
     "setup": true,
     "name": "Good Cop",
     "team": "townsfolk",
-    "ability": "You start knowing that 1 of 2 players is the Bad Cop. Evil abilities affecting them affect you instead. [+the Bad Cop]",
+    "ability": "You start knowing that 1 of 2 players is the Bad Cop, or that none is in play. Evil abilities affecting the Bad Cop affect you instead.",
     "flavor": "We just wanna ask some questions, nothin' serious.. can I gedda water for ya?",
     "firstNight": 23,
     "jinxes": [
@@ -123,7 +123,11 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player (not yourself): If the Demon kills them, you learn that it is 1 of 2 players, then lose this ability.",
     "flavor": "Two gentlemen walked right up to 'im and popped him in the head, point blank. I swear it on my ma, it was one of them two!",
-    "otherNight": 5
+    "otherNight": 5,
+    "jinxes": [
+    {"id": "leviathan", "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Witness uses their ability."},
+    {"id": "riot", "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Witness uses their ability."}
+  ]
 },
 
 {
@@ -194,7 +198,11 @@
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn an evil player & their character.",
     "flavor": "I promise ya Paulie, it was Frank n' Willie who whacked 'im! I just know it!",
-    "otherNight": 11
+    "otherNight": 11,
+    "jinxes": [
+    {"id": "leviathan", "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Whistleblower uses their ability but does not die."},
+    {"id": "riot", "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Whistleblower uses their ability but does not die."}
+  ]
 },
 
 {
@@ -255,6 +263,7 @@
     {"id": "organgrinder", "reason": "The Rat cannot think that they are the Organ Grinder."},
     {"id": "summoner", "reason": "The Rat cannot think that they are the Summoner."},
     {"id": "vizier", "reason": "The Rat cannot think that they are the Vizier."},
+    {"id": "wraith", "reason": "The Rat cannot think that they are the Wraith."},
     {"id": "leviathan", "reason": "The Rat learns they are The Rat on day 5 if a Leviathan is in play."},
     {"id": "kazali", "reason": "The Rat and Kazali cannot start together. If a Kazali is in play, a good player might become The Rat after the Kazali acts."},
     {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon cannot start together. If a Lord of Typhon is in play, a good player might become The Rat during setup."},
@@ -351,6 +360,7 @@
     "jinxes": [
     {"id": "spy", "reason": "If the Capo and the Spy are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "widow", "reason": "If the Capo and the Widow are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
+    {"id": "wraith", "reason": "If the Capo and the Wraith are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "plaguedoctor", "reason": "If the Storyteller would gain the Capo ability, a living Minion gains the Capo ability in addition to their own ability, and learns this. 1 good player learns a Capo is in play."}
   ]
 },
@@ -394,11 +404,11 @@
     "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Dead’.",
     "reminders": [
       "Dead",
-      "Evil Safe From Execution"
+      "Evil Safe From Death"
     ],
     "name": "The Boss",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The 1st time an evil player would die from execution, they don't.",
+    "ability": "Each night*, choose a player: they die. The 1st time an evil player would die, they don't.",
     "flavor": "Make it happen Georgie. Don't let me down.",
     "otherNight": 6
 },
