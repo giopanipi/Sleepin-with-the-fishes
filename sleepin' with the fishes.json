@@ -226,7 +226,7 @@
     ],
     "name": "Barmaid",
     "team": "outsider",
-    "ability": "On your 1st night, choose 2 players: 1 of them or you are drunk from now on, even if you die.",
+    "ability": "On your 1st night, choose 2 players (not yourself): 1 of them or you are drunk from now on, even if you die.",
     "flavor": "What can I get ya? Can do ya a Martini, Sidecar or an Old-Fashioned.",
     "firstNight": 15
 },
