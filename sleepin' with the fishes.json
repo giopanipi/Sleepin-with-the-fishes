@@ -90,7 +90,7 @@
     "firstNight": 20,
     "otherNight": 12,
     "jinxes": [
-    {"id": "cannibal", "reason": "If an evil player is eaten by the Cannibal, then selected by the Nurse, the Cannibal remains poisoned."}
+    {"id": "cannibal", "reason": "If an evil player is eaten by the Cannibal, then selected by the Nurse, the Cannibal does not yield sober and healthy information."}
   ]
 },
 
@@ -300,7 +300,11 @@
     "ability": "If you die by execution, the Demon may choose 1 extra player to die at night (once) from now on. The Demon knows who the Mob Wife is.",
     "flavor": "I swear I seen nothin' of the sort, my Georgie would never harm a fly!",
     "firstNight": 18,
-    "otherNight": 10
+    "otherNight": 10,
+     "jinxes": [
+    {"id": "leviathan", "reason": "If Leviathan is in play and the Mob Wife dies by execution, the Mob Wife's team loses."},
+    {"id": "riot", "reason": "If Riot is in play and the Mob Wife dies during the day, another alive player dies too."}
+     ]
 },
 
 {
@@ -319,7 +323,7 @@
     "otherNight": 4,
     "jinxes": [
     {"id": "damsel", "reason": "The Damsel might register as another character to the Underboss."},
-    {"id": "engineer", "reason": "The Heretic might register as another character to the Underboss."}
+    {"id": "heretic", "reason": "The Heretic might register as another character to the Underboss."}
   ]
 },
 
@@ -393,7 +397,7 @@
     "otherNight": 7,
     "jinxes": [
     {"id": "damsel", "reason": "The Damsel might register as another character to the Kingpin."},
-    {"id": "engineer", "reason": "The Heretic might register as another character to the Kingpin."}
+    {"id": "heretc", "reason": "The Heretic might register as another character to the Kingpin."}
   ]
 },
 
