@@ -49,7 +49,7 @@
     ],
     "name": "Good Cop",
     "team": "townsfolk",
-    "ability": "You start knowing that 1 of 2 players is the Bad Cop, or that none is in play. Evil abilities affecting the Bad Cop affect you instead.",
+    "ability": "You start knowing that 1 of 2 players is the Bad Cop, or that none is in play. Evil abilities affect you instead of the Bad Cop.",
     "flavor": "We just wanna ask some questions, nothin' serious.. can I gedda water for ya?",
     "firstNight": 23,
     "jinxes": [
@@ -104,7 +104,7 @@
     ],
     "name": "Insider",
     "team": "townsfolk",
-    "ability": "Each night, choose a living player (not yourself): you learn a statement about the evil team tomorrow. It is false if they were good.",
+    "ability": "Each night, choose a living player (not yourself): learn a statement about the evil team tomorrow. It is false if they are good.",
     "flavor": "Word on the street is that Joey is plannin' on whackin' Paulie, that's what I 'erd anyhow.",
     "firstNight": 24,
     "otherNight": 13
@@ -139,7 +139,7 @@
     ],
     "name": "Bad Cop",
     "team": "townsfolk",
-    "ability": "Each day before nominations, you may publicly choose a player. Tonight, learn their alignment. 1 good player registers as evil to you.",
+    "ability": "Each day, you may publicly choose a player. Tonight, learn their alignment. 1 good player registers as evil to you.",
     "flavor": "We know you did it Paulie, so stop wastin' our time n' tell us what we already know!",
     "otherNight": 14
 },
@@ -154,7 +154,7 @@
     ],
     "name": "Priest",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose up to 4 players (not yourself): you learn how many character types are amongst them. [+0 or +1 Outsider]",
+    "ability": "Once per game, at night, choose up to 4 players (not yourself): learn how many character types are among them. [+0 or +1 Outsider]",
     "flavor": "The essence of life is not in what we can see or touch, but in the unseen forces that bind us to each other and to something greater than ourselves. Do good in this world and God will do good unto you. Amen.",
     "firstNight": 26,
     "otherNight": 15
@@ -241,12 +241,11 @@
   "setup": true,
     "name": "The Rat",
     "team": "outsider",
-    "ability": "You think you are a Minion, but you are not. You might register as an evil Minion, & if just 3 players live, you learn you are The Rat, even if dead.",
+    "ability": "You think you are a Minion, but you are not. You register as an evil Minion. If only 3 players live, you learn you are The Rat, even if dead.",
   "special": [
     {"name": "bag-disabled",
       "type": "selection",
       "time": "pregame"},
-
     {"name": "replace-character",
      "type": "reveal"}
     ],
@@ -255,8 +254,7 @@
     "jinxes": [
     {"id": "cannibal", "reason": "The Rat always registers as evil to the Cannibal's ability."},
     {"id": "engineer", "reason": "The Minion character that The Rat sees is considered to be in play for the Engineer’s ability."},
-    {"id": "klutz", "reason": "The Rat always registers as good to the Klutz's ability."},
-    {"id": "ogre", "reason": "The Rat always registers as good to the Ogre's ability."},
+    {"id": "ogre", "reason": "The Rat instead registers as good to the Ogre's ability."},
     {"id": "eviltwin", "reason": "The Rat cannot think that they are the Evil Twin."},
     {"id": "fearmonger", "reason": "The Rat cannot think that they are the Fearmonger."},
     {"id": "organgrinder", "reason": "The Rat cannot think that they are the Organ Grinder."},
@@ -297,7 +295,7 @@
     ],
     "name": "Mob Wife",
     "team": "outsider",
-    "ability": "If you die by execution, the Demon may choose 1 extra player to die at night (once) from now on. The Demon knows who the Mob Wife is.",
+    "ability": "If you are executed, the Demon may choose 1 extra player to die at night (once) from now on. The Demon knows who the Mob Wife is.",
     "flavor": "I swear I seen nothin' of the sort, my Georgie would never harm a fly!",
     "firstNight": 18,
     "otherNight": 10,
@@ -486,7 +484,7 @@
     ],
     "name": "Double Agent",
     "team": "traveller",
-    "ability": "Each day before nominations, you may privately choose your alignment. Once per game at night, choose to learn someone of your alignment. (If you start evil, you do not learn the Demon)",
+    "ability": "Each day before nominations, privately choose your alignment. Once per game at night, learn a player of your alignment. (If you start evil, you do not learn the Demon)",
     "flavor": "Bit o' this, bit o' that.. which way will I go? Which way does the wind blow?",
     "firstNight": 27,
     "otherNight": 17
@@ -501,10 +499,11 @@
     ],
     "name": "President",
     "team": "traveller",
-    "ability": "Once per game, publicly choose a player. The Storyteller announces if they are the same or different alignment to you. You are unaffected by drunk & poison.",
+    "ability": "Once per game, publicly choose a player. The Storyteller reveals if your alignments match. You are unaffected by drunk & poison.",
     "flavor": "I promise you, my fellow Americans, that you will not need to fear organized crime on your streets while I am in service to you. For a better tomorrow, today!",
     "firstNight": 28
 },
 
 "gardener"
 ]
+
