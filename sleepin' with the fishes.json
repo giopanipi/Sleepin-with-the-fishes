@@ -252,7 +252,6 @@
     "flavor": "Big deal goin' down tonight at the river. Lotta mobsters gonna be around. ",
     "otherNight": 16,
     "jinxes": [
-    {"id": "cannibal", "reason": "The Rat always registers as evil to the Cannibal's ability."},
     {"id": "engineer", "reason": "The Minion character that The Rat sees is considered to be in play for the Engineer’s ability."},
     {"id": "ogre", "reason": "The Rat instead registers as good to the Ogre's ability."},
     {"id": "eviltwin", "reason": "The Rat cannot think that they are the Evil Twin."},
@@ -506,4 +505,5 @@
 
 "gardener"
 ]
+
 
