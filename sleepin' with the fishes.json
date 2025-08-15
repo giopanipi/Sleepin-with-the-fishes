@@ -61,8 +61,8 @@
 {
     "id": "prisonofficer_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/prisonofficer_botc_mafia.png",
-    "firstNightReminder": "Wake, ask to choose a player. Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
-    "otherNightReminder": "Wake, ask to choose a player. Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
+    "firstNightReminder": "Wake, ask to choose a player (not themselves). Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
+    "otherNightReminder": "Wake, ask to choose a player (not themselves). Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
     "reminders": [
       "Safe",
       "Drunk"
@@ -78,8 +78,8 @@
 {
     "id": "nurse_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/nurse_botc_mafia.png",
-    "firstNightReminder": "Wake, ask to choose a player. Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
-    "otherNightReminder": "Wake, ask to choose a player. Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
+    "firstNightReminder": "Wake, ask to choose a player (not themselves). Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
+    "otherNightReminder": "Wake, ask to choose a player (not themselves). Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
     "reminders": [
       "Healthy"
     ],
@@ -97,8 +97,8 @@
 {
     "id": "insider_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/insider_botc_mafia.png",
-    "firstNightReminder": "Wake, ask to choose a living player. Mark chosen player as ‘Chosen’,",
-    "otherNightReminder": "Wake, ask to choose a living player. Mark chosen player as ‘Chosen’,",
+    "firstNightReminder": "Wake, ask to choose a living player (not themselves). Mark chosen player as ‘Chosen’,",
+    "otherNightReminder": "Wake, ask to choose a living player (not themselves). Mark chosen player as ‘Chosen’,",
     "reminders": [
       "Chosen"
     ],
@@ -113,7 +113,7 @@
 {
     "id": "witness_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/witness_botc_mafia.png",
-    "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Seen’. If that player dies to the Demon tonight, wake the Witness again and point to 2 players. 1 of them is the Demon.",
+    "otherNightReminder": "Wake, ask to choose a player (not themselves). Mark chosen player as ‘Seen’. If that player dies to the Demon tonight, wake the Witness again and point to 2 players. 1 of them is the Demon.",
     "reminders": [
       "Seen",
       "No Ability"
@@ -147,8 +147,8 @@
 {
     "id": "priest_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/priest_botc_mafia.png",
-    "firstNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players. Show the Priest the number of different character types (Townsfolk, Outsiders, Minion, Demon) amongst chosen players. Mark Priest with ‘No Ability’.",
-    "otherNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players. Show the Priest the number of different character types (Townsfolk, Outsiders, Minion, Demon) amongst chosen players. Mark Priest with ‘No Ability’.",
+    "firstNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players (not themselves). Show the Priest the number of different character types among chosen players. Mark Priest with ‘No Ability’.",
+    "otherNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players (not themselves). Show the Priest the number of different character types among chosen players. Mark Priest with ‘No Ability’.",
     "reminders": [
       "No Ability"
     ],
@@ -220,7 +220,7 @@
 {
     "id": "barmaid_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/barmaid_botc_mafia.png",
-    "firstNightReminder": "Wake, ask to choose 2 players. Mark 1 of the 2 chosen players or the Barmaid as ‘Drunk’.",
+    "firstNightReminder": "Wake, ask to choose 2 players (not themselves). Mark 1 of the 2 chosen players or the Barmaid as ‘Drunk’.",
     "reminders": [
       "Drunk"
     ],
@@ -270,7 +270,7 @@
 {
     "id": "addict_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/addict_botc_mafia.png",
-    "firstNightReminder": "Wake 2 drugged players separately. Show each of them the Addict and 1 Townsfolk. Mark the characters they are not with reminder tokens of those characters",
+    "firstNightReminder": "Wake 2 drugged players separately. Show each of them the Addict and 1 Townsfolk. Mark the characters they are not with reminder tokens of those characters.",
     "reminders": [
       "Drugged",
       "Drugged"
@@ -505,5 +505,6 @@
 
 "gardener"
 ]
+
 
 
