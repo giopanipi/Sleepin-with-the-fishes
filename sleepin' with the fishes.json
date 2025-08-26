@@ -192,10 +192,10 @@
 {
     "id": "whistleblower_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/whistleblower_botc_mafia.png",
-    "otherNightReminder": "If the Whistleblower died to the Demon, wake them, show them an evil player and their character.",
+    "otherNightReminder": "If the Whistleblower died tonight, wake them, ask them to choose a direction (clockwise/anticlockwise). Show them the closest living evil player and their character in that direction to the Whistleblower.",
     "name": "Whistleblower",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, you learn an evil player & their character.",
+    "ability": "If you die at night, wake and choose a direction. You learn the nearest living evil player and character to you in that direction.",
     "flavor": "I promise ya Paulie, it was Frank n' Willie who whacked 'im! I just know it!",
     "otherNight": 11,
     "jinxes": [
@@ -354,7 +354,7 @@
     "setup": true,
     "name": "Capo",
     "team": "minion",
-    "ability": "If you correctly guess the player drugged by you (once), their team loses. They learn the Capo is in play. [+1 Drugged]",
+    "ability": "If you publicly guess the player drugged by you (once), their team loses. They learn the Capo is in play. [+1 Drugged]",
     "flavor": "Some rat has taken summa our stash. I’m gonna find em, n’ make em pay.",
     "firstNight": 12,
     "jinxes": [
@@ -505,6 +505,7 @@
 
 "gardener"
 ]
+
 
 
 
