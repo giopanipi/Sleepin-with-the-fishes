@@ -192,10 +192,10 @@
 {
     "id": "whistleblower_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/whistleblower_botc_mafia.png",
-    "otherNightReminder": "If the Whistleblower died tonight, wake them, ask them to choose a direction (clockwise/anticlockwise). Show them the closest living evil player and their character in that direction to the Whistleblower.",
+    "otherNightReminder": "If the Whistleblower died tonight, wake them, ask them to choose a direction (clockwise/anticlockwise). Show them the closest living Minion and their character in that direction to the Whistleblower.",
     "name": "Whistleblower",
     "team": "townsfolk",
-    "ability": "If you die at night, wake and choose a direction. You learn the nearest living evil player and character to you in that direction.",
+    "ability": "If you die at night, wake and choose a direction. You learn the nearest living Minion and character to you in that direction.",
     "flavor": "I promise ya Paulie, it was Frank n' Willie who whacked 'im! I just know it!",
     "otherNight": 11,
     "jinxes": [
@@ -505,6 +505,7 @@
 
 "gardener"
 ]
+
 
 
 
