@@ -1,3 +1,4 @@
+
 [
 {
     "id": "_meta",
@@ -215,6 +216,23 @@
     "team": "townsfolk",
     "ability": "The 1st time you are executed, if the nominator is good, you don’t die.",
     "flavor": "This case against my client is baseless and without a single shred of evidence, and I implore the Jury that you acquit immediately!"
+},
+
+{
+    "id": "blank_botc_mafia",
+    "firstNightReminder": "Swap this token to players real character & add a custom reminder token for the drugged character to remind you for night phases. Assign the relevant 'Drugged' reminder token to the player (Addict, Capo or Drug Lord)",
+    "setup": true,
+    "name": "Blank Token",
+    "team": "townsfolk",
+    "ability": "If you draw this token you are drugged. The Storyteller will tell you 1 of 2 good characters you are on night 1.",
+    "firstNight": 10,
+    "special": [
+    {
+      "name": "bag-duplicate",
+      "type": "selection",
+      "time": "pregame"
+    }
+    ]
 },
 
 {
@@ -501,13 +519,5 @@
     "ability": "Once per game, publicly choose a player. The Storyteller reveals if your alignments match. You are unaffected by drunk & poison.",
     "flavor": "I promise you, my fellow Americans, that you will not need to fear organized crime on your streets while I am in service to you. For a better tomorrow, today!",
     "firstNight": 28
-},
-
-"gardener"
+}
 ]
-
-
-
-
-
-
