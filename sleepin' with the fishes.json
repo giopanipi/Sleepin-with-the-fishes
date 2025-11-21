@@ -4,7 +4,7 @@
     "id": "_meta",
     "name": "Sleepin' with the fishes.",
     "author": "Gio",
-    "almanac": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/almanac.html",
+    "almanac": "https://www.bloodstar.xyz/p/giopanipi/Sleepin_with_the_fishes/almanac.html",
     "bootlegger": ["Drugged players draw a blank token instead of a good character. At the start of night 1, drugged players are woken (separately) to learn that they are 1 of 2 good characters"],
     "firstNight": ["dusk","minioninfo", "demoninfo"]
 },
@@ -125,8 +125,8 @@
     "flavor": "Two gentlemen walked right up to 'im and popped him in the head, point blank. I swear it on my ma, it was one of them two!",
     "otherNight": 5,
     "jinxes": [
-    {"id": "leviathan", "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Witness uses their ability."},
-    {"id": "riot", "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Witness uses their ability."}
+    {"id": "leviathan", "reason": "If the Leviathan nominates and executes the Witness-seen player, good wins."},
+    {"id": "riot", "reason": "If Riot nominates and executes the Witness-seen player, good wins."}
   ]
 },
 
@@ -271,17 +271,18 @@
     "otherNight": 16,
     "jinxes": [
     {"id": "engineer", "reason": "The Minion character that The Rat sees is considered to be in play for the Engineer’s ability."},
-    {"id": "ogre", "reason": "The Rat instead registers as good to the Ogre's ability."},
+    {"id": "ogre", "reason": "The Rat registers as good to the Ogre."},
     {"id": "eviltwin", "reason": "The Rat cannot think that they are the Evil Twin."},
     {"id": "fearmonger", "reason": "The Rat cannot think that they are the Fearmonger."},
+    {"id": "mastermind", "reason": "If The Rat thinks they are the Mastermind, and either nominates or votes for the Demon resulting in their execution before there are 3 living players, evil wins."},
     {"id": "organgrinder", "reason": "The Rat cannot think that they are the Organ Grinder."},
     {"id": "summoner", "reason": "The Rat cannot think that they are the Summoner."},
     {"id": "vizier", "reason": "The Rat cannot think that they are the Vizier."},
     {"id": "wraith", "reason": "The Rat cannot think that they are the Wraith."},
     {"id": "leviathan", "reason": "The Rat learns they are The Rat on day 5 if a Leviathan is in play."},
-    {"id": "kazali", "reason": "The Rat and Kazali cannot start together. If a Kazali is in play, a good player might become The Rat after the Kazali acts."},
-    {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon cannot start together. If a Lord of Typhon is in play, a good player might become The Rat during setup."},
-    {"id": "riot", "reason": "The Rat does not learn they are The Rat, but does not turn into Riot on day 3."}
+    {"id": "kazali", "reason": "The Rat and The Kazali can not both be in play at the start of the game. If a Kazali is in play, a good player might become The Rat after the Kazali acts."},
+    {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon can not both be in play at the start of the game. If a Lord of Typhon is in play, a good player might become The Rat during night 1."},
+    {"id": "riot", "reason": "The Rat falsely learns that they are Riot on night 3. If all other Riot are dead on day 3, good wins."}
     ]
 },
 
@@ -318,7 +319,7 @@
     "otherNight": 10,
      "jinxes": [
     {"id": "leviathan", "reason": "If Leviathan is in play and the Mob Wife dies by execution, the Mob Wife's team loses."},
-    {"id": "riot", "reason": "If Riot is in play and the Mob Wife dies during the day, another alive player dies too."}
+    {"id": "riot", "reason": "If Riot is in play and the Mob Wife dies by execution, the Mob Wife's team loses."}
      ]
 },
 
@@ -332,7 +333,7 @@
     ],
     "name": "Underboss",
     "team": "minion",
-    "ability": "Each night, choose a player: you learn their character. 1 of their neighbours are poisoned.",
+    "ability": "Each night, choose a player: you learn their character. 1 of their neighbours are poisoned until dusk.",
     "flavor": "Just say the word n' Paulie will be sleepin' with the fishes tonight.",
     "firstNight": 17,
     "otherNight": 4,
@@ -379,7 +380,7 @@
     {"id": "spy", "reason": "If the Capo and the Spy are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "widow", "reason": "If the Capo and the Widow are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
     {"id": "wraith", "reason": "If the Capo and the Wraith are both are in play, the Capo is poisoned after the drugged player learns there is a Capo in play."},
-    {"id": "plaguedoctor", "reason": "If the Storyteller would gain the Capo ability, a living Minion gains the Capo ability in addition to their own ability, and learns this. 1 good player learns a Capo is in play."}
+    {"id": "plaguedoctor", "reason": "If the Storyteller would gain the Capo ability, a Minion gains it, and learns this. 1 good player learns a Capo is in play."}
   ]
 },
 
@@ -466,7 +467,7 @@
     "firstNight": 11,
     "otherNight": 9,
     "jinxes": [
-    {"id": "magician", "reason": "If the Magician and The Don are both are in play, the Storyteller chooses a Minion on The Don's behalf. The Minion suggests to the Storyteller who to kill, and the Storyteller relays their choice to The Don."},
+    {"id": "magician", "reason": "If the Magician and The Don are both are in play, the Magician starts knowing this but has no ability."},
     {"id": "poppygrower", "reason": "If the Poppy Grower and The Don are both are in play, The Don does not choose a Minion until the Poppy Grower is dead."},
     {"id": "marionette", "reason": "The Don cannot choose the Marionette as their advisor."}
   ]
@@ -521,3 +522,4 @@
     "firstNight": 28
 }
 ]
+
