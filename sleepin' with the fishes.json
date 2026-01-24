@@ -305,7 +305,6 @@
 {
     "id": "mobwife_botc_mafia",
     "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/mobwife_botc_mafia.png",
-    "firstNightReminder": "Wake the Demon, show the THIS PLAYER IS token and the Mob Wife token, then point to the Mob Wife.",
     "otherNightReminder": "If the Mob Wife was executed, mark the Demon with ‘Demon May Kill Twice’ token. Wake the Demon and show THIS CHARACTER HAS SELECTED YOU token, then show the Mob Wife. Ask if they want to use it. If yes, ask the Demon to choose a player. Mark chosen player as ‘Dead’.",
     "reminders": [
       "Demon May Kill Twice",
@@ -313,7 +312,7 @@
     ],
     "name": "Mob Wife",
     "team": "outsider",
-    "ability": "If you are executed, the Demon may choose 1 extra player to die at night (once) from now on. The Demon knows who the Mob Wife is.",
+    "ability": "If you are mad as an Outsider, you might be executed. If you die during the day, the Demon may kill twice at night from now on.",
     "flavor": "I swear I seen nothin' of the sort, my Georgie would never harm a fly!",
     "firstNight": 18,
     "otherNight": 10,
@@ -522,4 +521,5 @@
     "firstNight": 28
 }
 ]
+
 
