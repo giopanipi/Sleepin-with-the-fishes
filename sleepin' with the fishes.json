@@ -275,10 +275,10 @@
     {"id": "leviathan", "reason": "The Rat learns they are The Rat on day 5 if a Leviathan is in play."},
     {"id": "kazali", "reason": "The Storyteller may prompt The Kazali to choose an additional Minion. If so, one of the Minions chosen is The Rat."},
     {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon cannot both be in play at the start of the game. If a Lord of Typhon is in play, a good player might become The Rat at the start of night 1."},
-    {"id": "riot", "reason": "The Rat falsely learns that they are Riot on night 3. If all other Riot are dead on day 3, good wins."}
-    {"id": "boomdandy", "reason": "The Rat cannot think that they are the Boomdandy."}
-    {"id": "spy", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Spy."}
-    {"id": "widow", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Widow."}
+    {"id": "riot", "reason": "The Rat falsely learns that they are Riot on night 3. If all other Riot are dead on day 3, good wins."},
+    {"id": "boomdandy", "reason": "The Rat cannot think that they are the Boomdandy."},
+    {"id": "spy", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Spy."},
+    {"id": "widow", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Widow."},
     {"id": "scarletwoman", "reason": "If The Rat thinks they are the Scarlet Woman and becomes the Demon, another Minion might become The Rat."}
     ]
 },
