@@ -259,7 +259,7 @@
   "setup": true,
     "name": "The Rat",
     "team": "outsider",
-    "ability": "You think you are a Minion, but you are not. You register as an evil Minion. If only 3 players live, you learn you are The Rat, even if dead.",
+    "ability": "You think you are a Minion, and have that ability. You might register as an evil Minion. If only 3 players live, you learn you are The Rat, even if dead.",
   "special": [
     {"name": "bag-disabled",
       "type": "selection",
@@ -270,19 +270,16 @@
     "flavor": "Big deal goin' down tonight at the river. Lotta mobsters gonna be around. ",
     "otherNight": 16,
     "jinxes": [
-    {"id": "engineer", "reason": "The Minion character that The Rat sees is considered to be in play for the Engineer’s ability."},
+    {"id": "engineer", "reason": "The Minion character that The Rat thinks they are is considered to be in play for the Engineer’s ability."},
     {"id": "ogre", "reason": "The Rat registers as good to the Ogre."},
-    {"id": "eviltwin", "reason": "The Rat cannot think that they are the Evil Twin."},
-    {"id": "fearmonger", "reason": "The Rat cannot think that they are the Fearmonger."},
-    {"id": "mastermind", "reason": "If The Rat thinks they are the Mastermind, and either nominates or votes for the Demon resulting in their execution before there are 3 living players, evil wins."},
-    {"id": "organgrinder", "reason": "The Rat cannot think that they are the Organ Grinder."},
-    {"id": "summoner", "reason": "The Rat cannot think that they are the Summoner."},
-    {"id": "vizier", "reason": "The Rat cannot think that they are the Vizier."},
-    {"id": "wraith", "reason": "The Rat cannot think that they are the Wraith."},
     {"id": "leviathan", "reason": "The Rat learns they are The Rat on day 5 if a Leviathan is in play."},
-    {"id": "kazali", "reason": "The Rat and The Kazali can not both be in play at the start of the game. If a Kazali is in play, a good player might become The Rat after the Kazali acts."},
-    {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon can not both be in play at the start of the game. If a Lord of Typhon is in play, a good player might become The Rat during night 1."},
+    {"id": "kazali", "reason": "The Storyteller may prompt The Kazali to choose an additional Minion. If so, one of the Minions chosen is The Rat."},
+    {"id": "lordoftyphon", "reason": "The Rat and Lord of Typhon cannot both be in play at the start of the game. If a Lord of Typhon is in play, a good player might become The Rat at the start of night 1."},
     {"id": "riot", "reason": "The Rat falsely learns that they are Riot on night 3. If all other Riot are dead on day 3, good wins."}
+    {"id": "boomdandy", "reason": "The Rat cannot think that they are the Boomdandy."}
+    {"id": "spy", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Spy."}
+    {"id": "widow", "reason": "The reminder token of The Rat is removed from the Grimoire whilst sharing the Grimoire with the Widow."}
+    {"id": "scarletwoman", "reason": "If The Rat thinks they are the Scarlet Woman and becomes the Demon, another Minion might become The Rat."}
     ]
 },
 
