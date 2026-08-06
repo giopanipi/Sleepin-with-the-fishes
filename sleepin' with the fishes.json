@@ -271,6 +271,7 @@
     "otherNight": 16,
     "jinxes": [
     {"id": "engineer", "reason": "The Minion character that The Rat thinks they are is considered to be in play for the Engineer’s ability."},
+    {"id": "philosopher", "reason": "The Philosopher cannot choose to gain The Rat's ability."},
     {"id": "ogre", "reason": "The Rat registers as good to the Ogre."},
     {"id": "leviathan", "reason": "The Rat learns they are The Rat on day 5 if a Leviathan is in play."},
     {"id": "kazali", "reason": "The Storyteller may prompt The Kazali to choose an additional Minion. If so, one of the Minions chosen is The Rat."},
