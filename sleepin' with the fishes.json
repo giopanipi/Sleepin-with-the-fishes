@@ -4,14 +4,14 @@
     "id": "_meta",
     "name": "Sleepin' with the fishes.",
     "author": "Gio",
-    "almanac": "https://www.bloodstar.xyz/p/giopanipi/Sleepin_with_the_fishes/almanac.html",
+    "almanac": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/almanac.html",
     "bootlegger": ["Drugged players draw a blank token instead of a good character. At the start of night 1, drugged players are woken (separately) to learn that they are 1 of 2 good characters"],
     "firstNight": ["dusk","minioninfo", "demoninfo"]
 },
 
 {
     "id": "detective_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/detective_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/detective_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, show 3 characters. At least 1 must be in play, at least 1 must not.",
     "name": "Detective",
     "team": "townsfolk",
@@ -22,7 +22,7 @@
 
 {
     "id": "vigilante_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/vigilante_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/vigilante_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake each Vigilante separately. Show each Vigilante the number of evil neighbours of the Vigilante clockwise from them. ",
     "setup": true,
     "name": "Vigilante",
@@ -41,7 +41,7 @@
 
 {
     "id": "goodcop_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/goodcop_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/goodcop_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, point to 2 different players. 1 of them must be the Bad Cop. If no Bad Cop is in play, shake your head.",
     "reminders": [
       "Bad Cop",
@@ -61,7 +61,7 @@
 
 {
     "id": "prisonofficer_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/prisonofficer_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/prisonofficer_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose a player (not themselves). Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
     "otherNightReminder": "Wake, ask to choose a player (not themselves). Either mark chosen player as ‘Safe’ and ‘Drunk’, or mark the Prison Officer as ‘Drunk’.",
     "reminders": [
@@ -78,7 +78,7 @@
 
 {
     "id": "nurse_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/nurse_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/nurse_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose a player (not themselves). Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
     "otherNightReminder": "Wake, ask to choose a player (not themselves). Mark them as ‘Healthy’. They are no longer drugged, and any information they receive until dusk must be sober & healthy even if drunk or poisoned.",
     "reminders": [
@@ -97,7 +97,7 @@
 
 {
     "id": "insider_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/insider_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/insider_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose a living player (not themselves). Mark chosen player as ‘Chosen’,",
     "otherNightReminder": "Wake, ask to choose a living player (not themselves). Mark chosen player as ‘Chosen’,",
     "reminders": [
@@ -113,7 +113,7 @@
 
 {
     "id": "witness_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/witness_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/witness_sleepin_with_the_fishes.png",
     "otherNightReminder": "Wake, ask to choose a player (not themselves). Mark chosen player as ‘Seen’. If that player dies to the Demon tonight, wake the Witness again and point to 2 players. 1 of them is the Demon.",
     "reminders": [
       "Seen",
@@ -132,7 +132,7 @@
 
 {
     "id": "badcop_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/badcop_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/badcop_sleepin_with_the_fishes.png",
     "otherNightReminder": "Wake, show the alignment of the player the Bad Cop announced during the day.",
     "reminders": [
       "Interrogates Tonight",
@@ -147,7 +147,7 @@
 
 {
     "id": "priest_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/priest_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/priest_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players (not themselves). Show the Priest the number of different character types among chosen players. Mark Priest with ‘No Ability’.",
     "otherNightReminder": "Wake, ask if they want to use it. If yes, ask to choose up to 4 players (not themselves). Show the Priest the number of different character types among chosen players. Mark Priest with ‘No Ability’.",
     "reminders": [
@@ -163,7 +163,7 @@
 
 {
     "id": "sleuth_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/sleuth_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/sleuth_sleepin_with_the_fishes.png",
     "reminders": [
       "No Ability"
     ],
@@ -175,7 +175,7 @@
 
 {
     "id": "reporter_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/reporter_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/reporter_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask for a number. Mark the number given with the relevant ‘Day’ reminder token.",
     "reminders": [
       "Day 1",
@@ -192,7 +192,7 @@
 
 {
     "id": "whistleblower_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/whistleblower_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/whistleblower_sleepin_with_the_fishes.png",
     "otherNightReminder": "If the Whistleblower died tonight. Show them the closest living Minion to the Whistleblower.",
     "name": "Whistleblower",
     "team": "townsfolk",
@@ -207,7 +207,7 @@
 
 {
     "id": "lawyer_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/lawyer_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/lawyer_sleepin_with_the_fishes.png",
     "reminders": [
       "Safe from Execution",
       "No Ability"
@@ -237,7 +237,7 @@
 
 {
     "id": "barmaid_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/barmaid_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/barmaid_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose 2 players (not themselves). Mark 1 of the 2 chosen players or the Barmaid as ‘Drunk’.",
     "reminders": [
       "Drunk"
@@ -251,7 +251,7 @@
 
 {
     "id": "therat_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/therat_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/therat_sleepin_with_the_fishes.png",
     "otherNightReminder": "If only 3 players live, wake, show YOU ARE token, then show The Rat.",
     "remindersGlobal": [
       "Is The Rat"
@@ -286,7 +286,7 @@
 
 {
     "id": "addict_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/addict_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/addict_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake 2 drugged players separately. Show each of them the Addict and 1 Townsfolk. Mark the characters they are not with reminder tokens of those characters.",
     "reminders": [
       "Drugged",
@@ -302,7 +302,7 @@
 
 {
     "id": "mobwife_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/mobwife_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/mobwife_sleepin_with_the_fishes.png",
     "otherNightReminder": "If the Mob Wife was executed, mark the Demon with ‘Demon May Kill Twice’ token. Wake the Demon and show THIS CHARACTER HAS SELECTED YOU token, then show the Mob Wife. Ask if they want to use it. If yes, ask the Demon to choose a player. Mark chosen player as ‘Dead’.",
     "reminders": [
       "Demon May Kill Twice",
@@ -322,7 +322,7 @@
 
 {
     "id": "underboss_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/underboss_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/underboss_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose a player. Show character of selected player. Mark one of their neighbours as ‘Poisoned’.",
     "otherNightReminder": "Wake, ask to choose a player. Show character of selected player. Mark one of their neighbours as ‘Poisoned’.",
     "reminders": [
@@ -342,7 +342,7 @@
 
 {
     "id": "consigliere_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/consigliere_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/consigliere_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose 2 good players. Wake 1 of the players, tell them that they are evil. Wake the other player, tell them that a Consigliere is in play.",
     "reminders": [
       "Evil",
@@ -361,7 +361,7 @@
 
 {
     "id": "capo_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/capo_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/capo_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake 1 drugged player, show them THIS CHARACTER HAS SELECTED YOU token, show the Capo. Show 2 good characters. Mark the character they are not with a reminder token of that character.",
     "reminders": [
       "Drugged",
@@ -383,7 +383,7 @@
 
 {
     "id": "intimidator_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/intimidator_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/intimidator_sleepin_with_the_fishes.png",
     "otherNightReminder": "If an Outsider was executed today, mark ‘Townsfolk are Poisoned’ next to the Intimidator. All Townsfolk are poisoned until dusk.",
     "reminders": [
       "Townsfolk are Poisoned"
@@ -398,7 +398,7 @@
 
 {
     "id": "kingpin_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/kingpin_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/kingpin_sleepin_with_the_fishes.png",
     "otherNightReminder": "Wake, ask to choose a player. Show them the chosen player’s character. The Kingpin will either nod to indicate to keep their choice, or choose another player. Mark the chosen player as ‘Dead’.",
     "reminders": [
       "Dead"
@@ -416,7 +416,7 @@
 
 {
     "id": "theboss_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/theboss_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/theboss_sleepin_with_the_fishes.png",
     "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Dead’.",
     "reminders": [
       "Dead",
@@ -431,7 +431,7 @@
 
 {
     "id": "druglord_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/druglord_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/druglord_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake up to 2 drugged players separately. Show each of them 2 good characters. Mark the characters they are not with reminder tokens of those characters. Wake the Drug Lord, show number of players drugged by their ability.",
     "otherNightReminder": "Wake, ask to choose a player. Mark chosen player as ‘Dead’.",
     "reminders": [
@@ -450,7 +450,7 @@
 
 {
     "id": "thedon_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/thedon_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/thedon_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, ask to choose a Minion. Mark chosen Minion as ‘Advisor’.",
     "otherNightReminder": "Wake with Minion marked as ‘Advisor’. Allow 10-15 seconds for Minion and Demon to silently discuss. Mark chosen player as ‘Dead’.",
     "reminders": [
@@ -472,7 +472,7 @@
 
 {
     "id": "loanshark1_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/loanshark1_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/loanshark_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, show alignment. Ask to choose 2 players. Mark the 1st chosen player with ‘No Votes’, and the other player with ‘2 votes’.",
     "otherNightReminder": "Wake, ask to choose 2 players. Mark the 1st chosen player with ‘No Votes’, and the other player with ‘2 votes’.",
     "reminders": [
@@ -489,7 +489,7 @@
 
 {
     "id": "doubleagent_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/doubleagent_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/doubleagent_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, show alignment. Ask if they want to use it. If yes, point to a player of their alignment.",
     "otherNightReminder": "Ask if they want to use it. If yes, point to a player of their alignment.",
     "reminders": [
@@ -507,7 +507,7 @@
 
 {
     "id": "president_botc_mafia",
-    "image": "https://www.bloodstar.xyz/p/giopanipi/BOTC_Mafia/president_botc_mafia.png",
+    "image": "https://bloodstar.clocktica.com/p/giopanipi/Sleepin_with_the_fishes/president_sleepin_with_the_fishes.png",
     "firstNightReminder": "Wake, show alignment.",
     "reminders": [
       "No Ability"
